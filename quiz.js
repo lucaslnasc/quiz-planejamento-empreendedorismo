@@ -1,13 +1,13 @@
 const storageKey = "quiz-planejamento-empreendedorismo-v1";
 let data;
-let state = { answers: {}, confirmed: {}, section: "revisao", index: 0 };
+let state = { answers: {}, section: "revisao", index: 0 };
 try { state = { ...state, ...JSON.parse(localStorage.getItem(storageKey) || "{}") }; } catch {}
 
 const escapeHtml = value => String(value ?? "").replace(/[&<>"']/g, char => ({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#39;"})[char]);
 const save = () => localStorage.setItem(storageKey, JSON.stringify(state));
 const currentSection = () => data.sections.find(s => s.id === state.section) || data.sections[0];
 const answered = q => q.options && Object.keys(q.options).length ? Boolean(state.answers[q.id]) : Boolean((state.answers[q.id] || "").trim());
-const complete = q => q.options && Object.keys(q.options).length ? Boolean(state.confirmed[q.id]) : answered(q);
+const complete = q => answered(q);
 
 function setLocation(section, index) {
   state.section = section;
@@ -50,8 +50,8 @@ function render() {
   state.index = Math.max(0, Math.min(section.questions.length - 1, Number(state.index) || 0));
   const q = section.questions[state.index];
   const selected = state.answers[q.id] || "";
-  const checked = Boolean(state.confirmed[q.id]);
   const subjective = !Object.keys(q.options).length;
+  const checked = !subjective && Boolean(selected);
   const count = section.questions.filter(complete).length;
   const options = Object.entries(q.options).map(([key, value]) => {
     const classes = ["option", selected === key ? "selected" : "", checked && key === q.answer ? "correct" : "", checked && selected === key && selected !== q.answer ? "wrong" : ""].filter(Boolean).join(" ");
@@ -63,7 +63,7 @@ function render() {
     feedback = `<div class="answer-box ${right ? "" : "incorrect"}" role="status"><strong>${right ? "Resposta correta" : "Resposta incorreta"}</strong><p>Gabarito de estudo: ${q.answer}) ${escapeHtml(q.options[q.answer])}</p></div>`;
   }
   const questionArea = subjective
-    ? `<textarea class="text-answer" id="text-answer" aria-label="Sua resposta" placeholder="Escreva sua resposta aqui…">${escapeHtml(selected)}</textarea><p class="draft-note">Resposta salva automaticamente neste navegador. O PDF não apresenta correção para esta questão.</p>`
+    ? `<label class="answer-label" for="text-answer">Sua resposta</label><textarea class="text-answer" id="text-answer" rows="8" placeholder="Escreva sua resposta aqui…">${escapeHtml(selected)}</textarea><p class="draft-note">Resposta salva automaticamente neste navegador. O PDF não apresenta correção para esta questão.</p>`
     : `<div class="options" role="group" aria-label="Alternativas">${options}</div>`;
   const info = `<p class="info-strip">As respostas das objetivas são um gabarito de estudo identificado pelo conteúdo. Os PDFs não apresentam gabarito explícito.</p>`;
   document.getElementById("main").innerHTML = `
@@ -75,7 +75,7 @@ function render() {
       ${q.stem ? `<p class="question-text">${escapeHtml(q.stem)}</p>` : ""}
       ${q.id === "canvas-2" ? `<img class="figure" src="canvas-figura.png" alt="Figura original do Canvas com a numeração dos nove blocos" width="874" height="493"><p class="figure-caption">Figura da questão 2, extraída da página 24 do material.</p>` : ""}
       ${questionArea}${feedback}
-      <div class="actions"><button class="btn" id="previous" ${state.index === 0 ? "disabled" : ""}>Anterior</button><span class="spacer"></span>${!subjective ? `<button class="btn primary" id="check" ${!selected ? "disabled" : ""}>${checked ? "Conferir novamente" : "Conferir resposta"}</button>` : ""}<button class="btn primary" id="next" ${state.index === section.questions.length - 1 ? "disabled" : ""}>Próxima</button></div>
+      <div class="actions"><button class="btn" id="previous" ${state.index === 0 ? "disabled" : ""}>Anterior</button><span class="spacer"></span><button class="btn primary" id="next" ${state.index === section.questions.length - 1 ? "disabled" : ""}>Próxima</button></div>
     </article>
     <div class="jump-wrap"><p class="jump-title">Ir para a questão</p><div class="jump-list">${section.questions.map((item, i) => `<button class="jump ${i === state.index ? "current" : ""} ${complete(item) ? "done" : ""}" data-jump="${i}" aria-label="Questão ${i+1}" ${i === state.index ? 'aria-current="step"' : ""}>${i+1}</button>`).join("")}</div></div>`;
   renderSidebar();
@@ -84,13 +84,15 @@ function render() {
   document.querySelectorAll("[data-jump]").forEach(el => el.addEventListener("click", () => setLocation(section.id, Number(el.dataset.jump))));
   document.querySelectorAll("[data-option]").forEach(el => el.addEventListener("click", () => {
     state.answers[q.id] = el.dataset.option;
-    delete state.confirmed[q.id];
     save(); render();
+    document.querySelector(`[data-option="${el.dataset.option}"]`)?.focus();
   }));
-  const check = document.getElementById("check");
-  if (check) check.addEventListener("click", () => { state.confirmed[q.id] = true; save(); render(); });
   const textarea = document.getElementById("text-answer");
-  if (textarea) textarea.addEventListener("input", () => { state.answers[q.id] = textarea.value; save(); });
+  if (textarea) {
+    const resize = () => { textarea.style.height = "auto"; textarea.style.height = `${textarea.scrollHeight}px`; };
+    resize();
+    textarea.addEventListener("input", () => { state.answers[q.id] = textarea.value; save(); resize(); });
+  }
 }
 
 function applyHash() {
