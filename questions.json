@@ -1,0 +1,589 @@
+{
+  "sections": [
+    {
+      "id": "revisao",
+      "label": "Guia rápido",
+      "detail": "Noção geral da matéria",
+      "source": "Síntese dos materiais enviados",
+      "questions": []
+    },
+    {
+      "id": "simulado",
+      "label": "Simulado",
+      "detail": "15 questões objetivas",
+      "source": "Simulado - Avaliação",
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Qual das alternativas melhor define o Planejamento Estratégico?",
+          "options": {
+            "A": "Processo de produção de bens e serviços.",
+            "B": "Ações operacionais aplicadas diariamente.",
+            "C": "Definição de objetivos de longo prazo e estratégias para alcançá-los.",
+            "D": "Controle da produtividade da equipe."
+          },
+          "id": "simulado-1",
+          "answer": "C"
+        },
+        {
+          "number": 2,
+          "stem": "Qual é o objetivo da missão organizacional?",
+          "options": {
+            "A": "Indicar os produtos vendidos pela empresa",
+            "B": "Apresentar os concorrentes do setor",
+            "C": "Mostrar os resultados financeiros",
+            "D": "Declarar o propósito da organização e sua razão de existir"
+          },
+          "id": "simulado-2",
+          "answer": "D"
+        },
+        {
+          "number": 3,
+          "stem": "A visão de uma organização representa",
+          "options": {
+            "A": "O lucro atual da empresa",
+            "B": "A meta de vendas do mês",
+            "C": "O destino futuro desejado pela empresa",
+            "D": "O regulamento interno"
+          },
+          "id": "simulado-3",
+          "answer": "C"
+        },
+        {
+          "number": 4,
+          "stem": "A matriz SWOT analisa quais elementos?",
+          "options": {
+            "A": "Produtos, serviços, preços e prazos",
+            "B": "Forças, fraquezas, oportunidades e ameaças",
+            "C": "Metas, estratégias, ações e resultados",
+            "D": "Recursos humanos, financeiros, físicos e tecnológicos"
+          },
+          "id": "simulado-4",
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "stem": "Qual das alternativas representa uma oportunidade no ambiente externo?",
+          "options": {
+            "A": "Baixa produtividade interna",
+            "B": "Aumento da concorrência",
+            "C": "Avanço tecnológico no setor",
+            "D": "Falta de qualificação da equipe"
+          },
+          "id": "simulado-5",
+          "answer": "C"
+        },
+        {
+          "number": 6,
+          "stem": "Qual nível de planejamento está mais ligado à execução de tarefas operacionais?",
+          "options": {
+            "A": "Estratégico",
+            "B": "Tático",
+            "C": "Funcional",
+            "D": "Operacional"
+          },
+          "id": "simulado-6",
+          "answer": "D"
+        },
+        {
+          "number": 7,
+          "stem": "O que é um objetivo estratégico?",
+          "options": {
+            "A": "Uma meta diária",
+            "B": "Uma ação isolada",
+            "C": "Um resultado desejado de longo prazo",
+            "D": "Um regulamento de conduta"
+          },
+          "id": "simulado-7",
+          "answer": "C"
+        },
+        {
+          "number": 8,
+          "stem": "Qual ferramenta é usada para alinhar indicadores e metas com a estratégia da empresa?",
+          "options": {
+            "A": "Diagrama de Pareto",
+            "B": "Balanced Scorecard (BSC)",
+            "C": "Matriz GUT",
+            "D": "Fluxograma de processos"
+          },
+          "id": "simulado-8",
+          "answer": "B"
+        },
+        {
+          "number": 9,
+          "stem": "Um dos principais desafios na implementação da estratégia é",
+          "options": {
+            "A": "A definição da missão",
+            "B": "A análise de dados internos",
+            "C": "A resistência à mudança por parte dos colaboradores",
+            "D": "A criação de produtos"
+          },
+          "id": "simulado-9",
+          "answer": "C"
+        },
+        {
+          "number": 10,
+          "stem": "O planejamento estratégico deve ser revisado",
+          "options": {
+            "A": "Apenas quando há prejuízo",
+            "B": "Anualmente ou conforme mudanças no ambiente",
+            "C": "Nunca, após ser aprovado",
+            "D": "Somente em crises"
+          },
+          "id": "simulado-10",
+          "answer": "B"
+        },
+        {
+          "number": 11,
+          "stem": "Uma empresa decide ampliar seu portfólio de produtos, investindo em uma linha totalmente nova, sem sair do seu setor de atuação. Qual estratégia da Matriz Ansoff está sendo aplicada?",
+          "options": {
+            "A": "Penetração de mercado",
+            "B": "Desenvolvimento de mercado",
+            "C": "Desenvolvimento de produto",
+            "D": "Diversificação"
+          },
+          "id": "simulado-11",
+          "answer": "C"
+        },
+        {
+          "number": 12,
+          "stem": "De acordo com as estratégias genéricas de Porter, uma empresa que foca em oferecer o menor preço possível com boa eficiência operacional está adotando:",
+          "options": {
+            "A": "Estratégia de diferenciação",
+            "B": "Estratégia de foco em nicho",
+            "C": "Estratégia de liderança em custos",
+            "D": "Estratégia de crescimento horizontal"
+          },
+          "id": "simulado-12",
+          "answer": "C"
+        },
+        {
+          "number": 13,
+          "stem": "Uma organização pública deseja implementar um planejamento estratégico participativo com forte envolvimento da sociedade. Qual ferramenta é mais indicada para coletar percepções, prioridades e expectativas da comunidade?",
+          "options": {
+            "A": "Análise SWOT",
+            "B": "Benchmarking",
+            "C": "Matriz GUT",
+            "D": "Planejamento estratégico situacional (PES)"
+          },
+          "id": "simulado-13",
+          "answer": "D"
+        },
+        {
+          "number": 14,
+          "stem": "No modelo do Balanced Scorecard (BSC), qual das alternativas representa corretamente as quatro perspectivas fundamentais para o alinhamento estratégico?",
+          "options": {
+            "A": "Clientes, Produto, Tecnologia, Sustentabilidade",
+            "B": "Financeira, Processos Internos, Clientes, Aprendizado e Crescimento",
+            "C": "Custos, Qualidade, Inovação, Retorno sobre Investimento",
+            "D": "Operacional, Estratégico, Financeiro e Político",
+            "E": "Resposta 5"
+          },
+          "id": "simulado-14",
+          "answer": "B"
+        },
+        {
+          "number": 15,
+          "stem": "Um dos principais fatores que levam ao fracasso de um bom plano estratégico é:",
+          "options": {
+            "A": "Ausência de ferramentas tecnológicas avançadas",
+            "B": "Planejamento excessivamente detalhado",
+            "C": "Falta de alinhamento entre estratégia e cultura organizacional",
+            "D": "Número excessivo de reuniões estratégicas"
+          },
+          "id": "simulado-15",
+          "answer": "C"
+        }
+      ]
+    },
+    {
+      "id": "avaliacao",
+      "label": "Avaliação 1",
+      "detail": "11 objetivas · 5 discursivas",
+      "source": "AVALIAÇÃO 1 - Planejamento Estratégico e Plano de Negócios de Produto",
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Qual das alternativas melhor define o Planejamento Estratégico?",
+          "options": {
+            "A": "Processo de produção de bens e serviços",
+            "B": "Ações operacionais aplicadas diariamente",
+            "C": "Definição de objetivos de longo prazo e estratégias para alcançá-los",
+            "D": "Controle da produtividade da equipe"
+          },
+          "id": "avaliacao-1",
+          "answer": "C"
+        },
+        {
+          "number": 2,
+          "stem": "A visão de uma organização representa:",
+          "options": {
+            "A": "O lucro atual",
+            "B": "A meta de vendas do mês",
+            "C": "O destino futuro desejado pela empresa",
+            "D": "O regulamento interno"
+          },
+          "id": "avaliacao-2",
+          "answer": "C"
+        },
+        {
+          "number": 3,
+          "stem": "Qual é o objetivo da missão organizacional?",
+          "options": {
+            "A": "Indicar os produtos vendidos",
+            "B": "Apresentar os concorrentes",
+            "C": "Mostrar resultados financeiros",
+            "D": "Declarar o propósito da organização e sua razão de existir"
+          },
+          "id": "avaliacao-3",
+          "answer": "D"
+        },
+        {
+          "number": 4,
+          "stem": "A matriz SWOT analisa quais elementos?",
+          "options": {
+            "A": "Produtos, serviços, preços e prazos",
+            "B": "Forças, fraquezas, oportunidades e ameaças",
+            "C": "Metas, estratégias, ações e resultados",
+            "D": "Recursos humanos e financeiros"
+          },
+          "id": "avaliacao-4",
+          "answer": "B"
+        },
+        {
+          "number": 5,
+          "stem": "Qual das alternativas representa uma oportunidade no ambiente externo?",
+          "options": {
+            "A": "Baixa produtividade interna",
+            "B": "Aumento da concorrência",
+            "C": "Avanço tecnológico no setor",
+            "D": "Falta de qualificação da equipe"
+          },
+          "id": "avaliacao-5",
+          "answer": "C"
+        },
+        {
+          "number": 6,
+          "stem": "Qual nível de planejamento está mais ligado à execução de tarefas rotineiras?",
+          "options": {
+            "A": "Estratégico",
+            "B": "Tático",
+            "C": "Funcional",
+            "D": "Operacional"
+          },
+          "id": "avaliacao-6",
+          "answer": "D"
+        },
+        {
+          "number": 7,
+          "stem": "Em qual etapa do planejamento a organização define metas e KPIs?",
+          "options": {
+            "A": "Análise externa",
+            "B": "Formulação estratégica",
+            "C": "Execução operacional",
+            "D": "Análise de mercado"
+          },
+          "id": "avaliacao-7",
+          "answer": "B"
+        },
+        {
+          "number": 8,
+          "stem": "Qual ferramenta alinha objetivos, indicadores e metas com a estratégia?",
+          "options": {
+            "A": "Matriz GUT",
+            "B": "Análise SWOT",
+            "C": "Balanced Scorecard (BSC)",
+            "D": "Canvas"
+          },
+          "id": "avaliacao-8",
+          "answer": "C"
+        },
+        {
+          "number": 9,
+          "stem": "Uma empresa quer se destacar por sua inovação e qualidade, mesmo com preço mais alto. Que estratégia de Porter está usando?",
+          "options": {
+            "A": "Liderança em custos",
+            "B": "Foco em nicho",
+            "C": "Diferenciação",
+            "D": "Redução de despesas"
+          },
+          "id": "avaliacao-9",
+          "answer": "C"
+        },
+        {
+          "number": 10,
+          "stem": "Segundo Ulrich (2002), a análise SWOT é um dos métodos mais utilizados em investigação social, seja no desenvolvimento de diagnósticos, no estudo organizacional ou na elaboração de planos. Ela auxilia as empresas no desenvolvimento do planejamento estratégico. Para que esse estudo auxilie as organizações, quais são os elementos que as empresas deverão descrever nos quatro quadrantes presentes na matriz SWOT?",
+          "options": {
+            "A": "Forças, oportunidades, fraquezas e ameaças.",
+            "B": "Concorrentes, oportunidades, mercado potencial e estratégias.",
+            "C": "Forças, estratégias, concorrentes e oportunidades.",
+            "D": "Estratégias, fraquezas, ameaças e forças."
+          },
+          "id": "avaliacao-10",
+          "answer": "A"
+        },
+        {
+          "number": 11,
+          "stem": "Uma startup quer ganhar mercado rápido com produtos acessíveis. Que estratégia competitiva aplica?",
+          "options": {
+            "A": "Liderança em custos",
+            "B": "Diferenciação",
+            "C": "Integração vertical",
+            "D": "Especialização geográfica"
+          },
+          "id": "avaliacao-11",
+          "answer": "A"
+        },
+        {
+          "number": 12,
+          "stem": "O que diferencia a missão da visão organizacional?",
+          "options": {},
+          "id": "avaliacao-12"
+        },
+        {
+          "number": 13,
+          "stem": "O que são stakeholders? Cite dois exemplos.",
+          "options": {},
+          "id": "avaliacao-13"
+        },
+        {
+          "number": 14,
+          "stem": "Diferencie objetivos estratégicos de metas operacionais.",
+          "options": {},
+          "id": "avaliacao-14"
+        },
+        {
+          "number": 15,
+          "stem": "Como o BSC integra indicadores de desempenho não financeiros na estratégia?",
+          "options": {},
+          "id": "avaliacao-15"
+        },
+        {
+          "number": 16,
+          "stem": "Cite dois motivos que levam ao fracasso de um planejamento bem elaborado.",
+          "options": {},
+          "id": "avaliacao-16"
+        }
+      ]
+    },
+    {
+      "id": "swot",
+      "label": "Análise SWOT",
+      "detail": "5 questões objetivas",
+      "source": "Análise SWOT · Exercícios",
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Segundo Ulrich (2002), a análise SWOT é um dos métodos mais utilizados em investigação social, seja no desenvolvimento de diagnósticos, no estudo organizacional ou na elaboração de planos. Ela auxilia as empresas no desenvolvimento do planejamento estratégico. Para que esse estudo auxilie as organizações, quais são os elementos que as empresas deverão descrever nos quatro quadrantes presentes na matriz SWOT?",
+          "options": {
+            "A": "Forças, oportunidades, fraquezas e ameaças.",
+            "B": "Concorrentes, oportunidades, mercado potencial e estratégias.",
+            "C": "Forças, estratégias, concorrentes e oportunidades.",
+            "D": "Estratégias, fraquezas, ameaças e forças.",
+            "E": "Concorrentes, mercado potencial, forças e oportunidades."
+          },
+          "id": "swot-1",
+          "answer": "A"
+        },
+        {
+          "number": 2,
+          "stem": "Como você sabe, conhecer os fatores internos e externos é indispensável para a organização visualizar a realidade em que opera, possibilitando planejar melhor o seu futuro. Afinal, quais são os elementos que a empresa precisará descrever na matriz SWOT, referente ao seu ambiente interno?",
+          "options": {
+            "A": "Forças e oportunidades.",
+            "B": "Oportunidades e ameaças.",
+            "C": "Estratégias e concorrentes.",
+            "D": "Forças e fraquezas.",
+            "E": "Ameaças e fraquezas."
+          },
+          "id": "swot-2",
+          "answer": "D"
+        },
+        {
+          "number": 3,
+          "stem": "As oportunidades de uma organização são fatores que esta não consegue controlar, entretanto poderá planejar-se e preparar-se para usufruir de suas vantagens. Você sabe em qual ambiente a organização deverá estudar suas possíveis oportunidades?",
+          "options": {
+            "A": "Ambiente interno.",
+            "B": "Ambiente empresarial.",
+            "C": "Ambiente da concorrência.",
+            "D": "Ambiente social.",
+            "E": "Ambiente externo."
+          },
+          "id": "swot-3",
+          "answer": "E"
+        },
+        {
+          "number": 4,
+          "stem": "Imagine que você acaba de adquirir uma loja de produtos orgânicos. A maioria dos produtos que você comercializa é perecível, e seus principais consumidores residem a uma distância longa de seu estabelecimento. Em sua matriz SWOT, qual seria o local correto para apontar essa situação e tentar revertê-la ou amenizá-la?",
+          "options": {
+            "A": "Ameaça.",
+            "B": "Estratégia.",
+            "C": "Força.",
+            "D": "Oportunidade.",
+            "E": "Fraqueza."
+          },
+          "id": "swot-4",
+          "answer": "E"
+        },
+        {
+          "number": 5,
+          "stem": "Você é proprietário de uma rede de hotéis no litoral de São Paulo. Há algumas semanas, sua região vem enfrentando fortes temporais, fazendo com que várias reservas fossem canceladas. Ao realizar sua matriz SWOT, onde você apontará essa situação?",
+          "options": {
+            "A": "Ameaça.",
+            "B": "Força.",
+            "C": "Oportunidade.",
+            "D": "Fraqueza.",
+            "E": "Estratégia."
+          },
+          "id": "swot-5",
+          "answer": "A"
+        }
+      ]
+    },
+    {
+      "id": "canvas",
+      "label": "Business Model Canvas",
+      "detail": "5 questões objetivas",
+      "source": "Business Model Canvas · Exercícios",
+      "questions": [
+        {
+          "number": 1,
+          "stem": "Segundo Dornelas e colaboradores (2018), para fazer o Canvas a ideia é que o empreendedor responda de maneira objetiva às perguntas de cada bloco, iniciando por sua proposta de valor ou pelos segmentos de clientes, passando depois às questões dos demais blocos do lado direito: canais e relacionamentos. Em seguida, devem ser preenchidos os blocos atividades, parcerias e recursos-chave e, por fim, receitas e custos. Pensando nessa orientação do autor, e nas possíveis questões que podem responder cada bloco, determine qual das alternativas a seguir aponta as questões corretas para o bloco correto.",
+          "options": {
+            "A": "Proposta de valor: – Que valor entregamos a nossos clientes? – Qual problema de nosso cliente ajudamos a resolver?",
+            "B": "Parcerias-chave: – Quais atividades nossa proposta de valor requer para que aconteça? – Quais são nossos canais de distribuição?",
+            "C": "Atividades-chave: – Como conquistamos, mantemos e aumentamos nosso número de clientes? – Qual relacionamento temos e mantemos com nossos clientes?",
+            "D": "Recursos-chave: – Quem são meus parceiros-chave? – Quais são meus fornecedores-chave?",
+            "E": "Relacionamento com clientes: – Quais são os recursos-chave de nossa proposta de valor? – Quais são os canais, modelos de receita que vamos adotar?"
+          },
+          "id": "canvas-1",
+          "answer": "A"
+        },
+        {
+          "number": 2,
+          "stem": "Ao pensar no Business Model Canvas, vários autores relatam que se deve obedecer a uma ordem de preenchimento, partindo da proposta de valor, seguindo para os blocos do lado direito e, então, para os do lado esquerdo, conforme figura a seguir: A imagem a seguir possui audiodescrição. Para acessar o recurso, clique aqui Considerando a figura, a que você atribui essa orientação?",
+          "options": {
+            "A": "Ao se elaborar a proposta de valor, é conscientemente mais interessante entender QUEM vai atender primeiro (blocos da direita) para, depois, entender COMO vai atender (blocos da esquerda).",
+            "B": "Quem criou a metodologia determinou que fosse feito dessa forma; sendo quem concebeu a ideia, tinha todo o direito de determinar a ordem.",
+            "C": "Essa ordem nunca foi indicada por nenhum autor; inclusive, fica muito mais fácil quando se faz exatamente o contrário do que está proposto.",
+            "D": "Essa ordem se deve ao fato de sermos seres sensorialmente voltados ao lado direito do cérebro, tanto que iniciamos TUDO pelo lado direito.",
+            "E": "Essa ordem se dá pelo fato de ser conscientemente mais interessante entender primeiro COMO vai atender (blocos da esquerda) para, depois, entender QUEM vai atender (blocos da direita)."
+          },
+          "id": "canvas-2",
+          "answer": "A"
+        },
+        {
+          "number": 3,
+          "stem": "Sousa e Bortoli Neto (2018) trazem como fundamental para o funcionamento da metodologia Canvas dois pontos importantes, que devem ser operacionalizados juntamente para aumentar a eficácia no todo. Um desses pontos é o CHA (Conhecimento – Habilidade – Atitude). A respeito do CHA ligado ao Business Model Canvas, aponte a alternativa que melhor enquadra essa ligação.",
+          "options": {
+            "A": "A ligação que melhor exemplifica a metodologia CHA com o Canvas é: os conhecimentos são necessários à medida que você conhece seu cliente e parceiros; as habilidades são necessárias na medida em que você elabora uma proposta de valor dentro do que sabe fazer, e a atitude se faz necessária no tocante a que o plano sem a ação não tem função alguma.",
+            "B": "A ligação que melhor exemplifica a metodologia CHA com o Canvas é: os conhecimentos são necessários na medida em que o plano sem a ação não tem função alguma; as habilidades são necessárias na medida em que você elabora uma proposta de valor dentro do que sabe fazer, e a atitude se faz necessária no tocante a que você conhece seu cliente e parceiros.",
+            "C": "A ligação que melhor exemplifica a metodologia CHA com o Canvas é: os conhecimentos são necessários à medida que você conhece seu cliente e parceiros; as habilidades são necessárias na medida em que o plano sem a ação não tem função alguma, e a atitude se faz necessária no tocante a que você elabora uma proposta de valor dentro do que sabe fazer.",
+            "D": "A ligação que melhor exemplifica a metodologia CHA com o Canvas é: os conhecimentos são necessários na medida em que o plano sem a ação não tem função alguma; as habilidades são necessárias à medida que você conhece seu cliente e parceiros, e a atitude se faz necessária no tocante a que você elabora uma proposta de valor dentro do que sabe fazer.",
+            "E": "A ligação que melhor exemplifica a metodologia CHA com o Canvas é: os conhecimentos são necessários à medida que você conhece seu intelecto e sua capacidade cognitiva; as habilidades são necessárias na medida em que você contrata apenas quem tem experiência no que se deseja, e a atitude se faz necessária no tocante a que o plano sem a ação não tem função alguma."
+          },
+          "id": "canvas-3",
+          "answer": "A"
+        },
+        {
+          "number": 4,
+          "stem": "Sousa e Bortoli Neto (2018) definem que a criação e utilização do Business Model Canvas se assemelha a um plano de negócios “tradicional”, no tocante à forma de elaborá-lo e oficializá-lo, principalmente no que diz respeito ao sumário executivo. Pensando nas ligações propostas pelos autores, qual das alternativas a seguir melhor define esse alinhamento?",
+          "options": {
+            "A": "No sumário executivo de um plano de negócios “tradicional”, existe uma etapa chamada PLANO FINANCEIRO, que se enquadra melhor com os blocos Fluxo de receitas e Estrutura de custos do Business Model Canvas.",
+            "B": "No sumário executivo de um plano de negócios “tradicional”, existe uma etapa chamada PLANO OPERACIONAL, que se enquadra melhor com os blocos Fluxo de receitas e Estrutura de custos do Business Model Canvas.",
+            "C": "No sumário executivo de um plano de negócios “tradicional”, existe uma etapa chamada PLANO DE MARKETING, que se enquadra melhor com os blocos Fluxo de receitas e Estrutura de custos do Business Model Canvas.",
+            "D": "No sumário executivo de um plano de negócios “tradicional”, existe uma etapa chamada ANÁLISE ESTRATÉGICA, que se enquadra melhor com os blocos Fluxo de receitas e Estrutura de custos do Business Model Canvas.",
+            "E": "No sumário executivo de um plano de negócios “tradicional”, existe uma etapa chamada DESCRIÇÃO DA EMPRESA, que se enquadra melhor com os blocos Fluxo de receitas e Estrutura de custos do Business Model Canvas."
+          },
+          "id": "canvas-4",
+          "answer": "A"
+        },
+        {
+          "number": 5,
+          "stem": "A abrangência e a amplitude de utilização da metodologia Canvas, ocorrem em escala mundial, devido a forma na qual é construida e seu aspecto visual. Essa metodologia consiste em dividir a proposta de negócio em nove elementos distintos. Analisando a afirmativa do texto e as informações disponibilizadas na unidade de aprendizagem, assinale alternativa correta em que são apresentados os nove elementos resultantes da divisão da proposta de negócio que caracterizam a metologia canvas:",
+          "options": {
+            "A": "Os elementos resultantes da divisão da proposta de negócio da metologia canvas são: proposta de valor, parcerias-chave, atividades-chave, recursos-chave, relacionamento com clientes, segmentos de clientes, canais de distribuição, plano financeiro e plano de marketing.",
+            "B": "Os elementos resultantes da divisão da proposta de negócio da metologia canvas são: proposta de valor, parcerias-chave, atividades-chave, recursos-chave, foco, segmentos de clientes, canais de distribuição, estrutura de custos, plano financeiro.",
+            "C": "Os elementos resultantes da divisão da proposta de negócio da metologia canvas são: foco, proposta de valor, plano financeiro, atividades-chave, recursos-chave, relacionamento com clientes, segmentos de clientes, canais de distribuição e estrutura de custos.",
+            "D": "Os elementos resultantes da divisão da proposta de negócio da metologia canvas são: proposta de valor, parcerias-chave, atividades-chave, recursos-chave, relacionamento com clientes, segmentos de clientes, canais de distribuição, estrutura de custos e fluxo de receitas.",
+            "E": "Os elementos resultantes da divisão da proposta de negócio da metologia canvas são: plano financeiro, plano de marketing, foco, recursos-chave, relacionamento com clientes, segmentos de clientes, canais de distribuição, estrutura de custos e fluxo de receitas."
+          },
+          "id": "canvas-5",
+          "answer": "D"
+        }
+      ]
+    },
+    {
+      "id": "empreendedorismo",
+      "label": "Comportamento empreendedor",
+      "detail": "5 questões objetivas",
+      "source": "Perfil e comportamento empreendedores · Exercícios",
+      "questions": [
+        {
+          "number": 1,
+          "stem": "O comportamento empreendedor tem sido muito discutido na atualidade, pois se considera que a postura adotada por indivíduos a partir dessa perspectiva pode agregar valor para o ambiente corporativo e diversas situações do contexto atual (Schumpeter, 1982). Sobre isso, considere as asserções a seguir e a relação proposta entre elas: I. O empreendedorismo é uma atividade que auxilia diretamente o desenvolvimento econômico. PORQUE II. A atitude empreendedora é associada à habilidade de gerenciar riscos e inovar em contextos desafiadores. Assinale a alternativa correta.",
+          "options": {
+            "A": "As asserções I e II são proposições falsas.",
+            "B": "A asserção I é uma proposição falsa e a II é uma proposição verdadeira.",
+            "C": "A asserção I é uma proposição verdadeira e a II é uma proposição falsa.",
+            "D": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I.",
+            "E": "As asserções I e II são proposições verdadeiras e a II é uma justificativa da I."
+          },
+          "id": "empreendedorismo-1",
+          "answer": "E"
+        },
+        {
+          "number": 2,
+          "stem": "O empreendedorismo está relacionado a uma postura orientada para ação, que envolve muito planejamento e cálculo de probabilidades. Por isso, a atividade requer análise de cenários e escolhas assertivas para lidar com eventuais dificuldades (Dornelas, 2008). Acerca do comportamento empreendedor, assinale V para as afirmativas verdadeiras e F para as falsas: ( ) Empreendedores buscam correr o maior risco possível em suas ações. ( ) O comportamento empreendedor inclui a habilidade de planejar metas específicas e mensuráveis. ( ) A postura empreendedora compreende a busca de autonomia e a criação de novas oportunidades. Assinale a alternativa que preenche as lacunas de forma correta:",
+          "options": {
+            "A": "V, F, F.",
+            "B": "F, V, F.",
+            "C": "F, V, V.",
+            "D": "V, V, F.",
+            "E": "F, F, F."
+          },
+          "id": "empreendedorismo-2",
+          "answer": "C"
+        },
+        {
+          "number": 3,
+          "stem": "A visão empreendedora está orientada mais para as oportunidades do que para as ameaças em si. Por isso, empreendedores tendem a avaliar riscos de modo distinto ao senso comum (Dornelas, 2008). Eles entendem que o risco não é uma simples probabilidade de falha, mas, sim:",
+          "options": {
+            "A": "o fracasso iminente de suas ações.",
+            "B": "a incapacidade de prever os resultados.",
+            "C": "a possibilidade de ganhar mais do que perder.",
+            "D": "a demanda de assumir todos os desafios sem planejamento.",
+            "E": "a avaliação de resultados antes da ação."
+          },
+          "id": "empreendedorismo-3",
+          "answer": "C"
+        },
+        {
+          "number": 4,
+          "stem": "O intraempreendedor é aquele que age dentro da organização com características de empreendedor. Ele tem uma forte capacidade de liderança, criatividade e resiliência, buscando resultados inovadores (Hashimoto, 2006). Sobre o perfil do intraempreendedor, analise as afirmativas a seguir: I. O intraempreendedor tem como finalidade principal a criação de um negócio próprio. II. A busca por desafios e inovação é uma das principais características do intraempreendedor. III. A liderança e a busca por resultados são características do intraempreendedor. É correto o que se afirma apenas em:",
+          "options": {
+            "A": "I e II.",
+            "B": "I e III.",
+            "C": "II e III.",
+            "D": "III.",
+            "E": "II."
+          },
+          "id": "empreendedorismo-4",
+          "answer": "C"
+        },
+        {
+          "number": 5,
+          "stem": "Empreender é uma atividade que tem interessado cada vez mais aos brasileiros na atualidade. Muitos buscam atuar como empreendedores por razões diversas. Por isso, na literatura especializada, se diferenciam os tipos de empreendedorismo existentes e o que os caracterizam, como acontece, por exemplo, com o empreendedorismo de necessidade (Dornelas, 2008). Sobre isso, considere as asserções a seguir e a relação proposta entre elas: I. O empreendedorismo de necessidade é uma maneira efetiva de gerar lucro e crescimento empresarial. PORQUE II. Empreendedores por necessidade tendem a entrar no mercado sem o devido planejamento adequado para seu negócio. Assinale a alternativa correta.",
+          "options": {
+            "A": "As asserções I e II são proposições verdadeiras, e a II é uma justificativa da I.",
+            "B": "As asserções I e II são proposições falsas.",
+            "C": "A asserção I é uma proposição verdadeira, e a II é uma proposição falsa.",
+            "D": "A asserção I é uma proposição falsa, e a II é uma proposição verdadeira.",
+            "E": "As asserções I e II são proposições verdadeiras, mas a II não é uma justificativa da I."
+          },
+          "id": "empreendedorismo-5",
+          "answer": "D"
+        }
+      ]
+    }
+  ]
+}
